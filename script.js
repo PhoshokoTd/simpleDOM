@@ -11,3 +11,12 @@ threeHeader.textContent = "I'm a blue h3!";
 threeHeader.style.color = 'blue';
 
 container.appendChild(threeHeader);
+
+const innerDiv = document.createElement('div');
+innerDiv.setAttribute('style', 'boader : black', 'background : pink')
+
+    const innerHeaderOne = document.querySelector('h1');
+    innerHeaderOne.textContent= "I'm in a div";
+    innerDiv.appendChild(innerHeaderOne);
+
+container.appendChild(innerDiv);
