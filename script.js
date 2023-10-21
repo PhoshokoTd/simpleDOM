@@ -19,4 +19,9 @@ innerDiv.setAttribute('style', 'boader : black', 'background : pink')
     innerHeaderOne.textContent= "I'm in a div";
     innerDiv.appendChild(innerHeaderOne);
 
+    const innerParagraph = document.querySelector('p');
+    innerParagraph.textContent = "ME TOO!";
+    innerDiv.appendChild(innerParagraph);
+
+
 container.appendChild(innerDiv);
