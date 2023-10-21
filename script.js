@@ -6,3 +6,8 @@ paragraph.style.color = 'red';
 
 container.appendChild(paragraph);
 
+const threeHeader = document.createElement('h3');
+threeHeader.textContent = "I'm a blue h3!";
+threeHeader.style.color = 'blue';
+
+container.appendChild(threeHeader);
