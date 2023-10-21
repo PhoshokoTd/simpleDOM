@@ -13,7 +13,7 @@ threeHeader.style.color = 'blue';
 container.appendChild(threeHeader);
 
 const innerDiv = document.createElement('div');
-innerDiv.setAttribute('style', 'boader : black', 'background : pink')
+innerDiv.setAttribute('style', 'border : 1px solid black; background : pink;')
 
     const innerHeaderOne = document.querySelector('h1');
     innerHeaderOne.textContent= "I'm in a div";
